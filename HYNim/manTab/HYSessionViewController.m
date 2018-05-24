@@ -75,7 +75,6 @@
 #pragma mark - UI操作
 - (void)chatObjectItemCard:(UIButton *)sender {
     NSLog(@"聊天信息对方信息：%@",self.session);
-    
 }
 #pragma mark - NIMSystemNotificationManagerDelegate 聊天消息通知
 - (void)onReceiveCustomSystemNotification:(NIMCustomSystemNotification *)notification {
