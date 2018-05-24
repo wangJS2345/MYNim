@@ -1,0 +1,50 @@
+//
+//  HYNim.pch
+//  HYNim
+//
+//  Created by wangJS on 2018/5/23.
+//  Copyright © 2018年 SXHY. All rights reserved.
+//
+
+#ifndef HYNim_pch
+#define HYNim_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MainViewController.h"
+
+//网易云信Demo appkey
+#define HY_NIM_APPKEY @"45c6af3c98409b18a84451215d0bdd6e"
+
+//_appKey = @"45c6af3c98409b18a84451215d0bdd6e";
+//_apiURL = @"https://app.netease.im/api";
+//_apnsCername = @"ENTERPRISE";
+//_pkCername = @"DEMO_PUSH_KIT";
+
+#define MAXFLOAT    0x1.fffffep+127f
+
+
+#import "AppDelegate.h"
+#import "SVProgressHUD.h"
+
+#import "NSString+HYNTES.h"
+#import "UIColor+Hex.h"
+#import "NSDictionary+NimJson.h"
+
+#import <NIMKit.h>
+
+#import "HYMainTabbarController.h"
+#import "HYMegViewController.h"
+#import "HYMineViewController.h"
+
+//消息列表页
+#import "HYMegListViewController.h"
+//会话对话页
+#import "HYSessionViewController.h"
+
+#import "HYMainNavigController.h"
+#import "HYCustomNotifiSender.h"
+
+
+#endif /* HYNim_pch */

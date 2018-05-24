@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953B388C20B55DD400EA7F32 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953B388B20B55DD400EA7F32 /* MainViewController.m */; };
+		958BE36120B6582F00E8FE5B /* HYMegListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36020B6582F00E8FE5B /* HYMegListViewController.m */; };
+		958BE36420B65B2900E8FE5B /* HYSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36320B65B2900E8FE5B /* HYSessionViewController.m */; };
+		958BE36820B6615200E8FE5B /* HYCustomNotifiSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36720B6615200E8FE5B /* HYCustomNotifiSender.m */; };
+		958BE36E20B661DC00E8FE5B /* NSDictionary+NimJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36D20B661DC00E8FE5B /* NSDictionary+NimJson.m */; };
+		95B668FC20B559CE0098C7C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B668FB20B559CE0098C7C8 /* AppDelegate.m */; };
+		95B668FF20B559CE0098C7C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B668FE20B559CE0098C7C8 /* ViewController.m */; };
+		95B6690420B559CE0098C7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B6690320B559CE0098C7C8 /* Assets.xcassets */; };
+		95B6690A20B559CE0098C7C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B6690920B559CE0098C7C8 /* main.m */; };
+		95B6691420B559CF0098C7C8 /* HYNimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B6691320B559CF0098C7C8 /* HYNimTests.m */; };
+		95B6691F20B559CF0098C7C8 /* HYNimUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B6691E20B559CF0098C7C8 /* HYNimUITests.m */; };
+		95BF8F5A20B561500036019D /* NIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BF8F5920B561500036019D /* NIMSDK.framework */; };
+		95BF8F5C20B5615B0036019D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BF8F5B20B5615B0036019D /* MobileCoreServices.framework */; };
+		95BF8F5E20B561640036019D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BF8F5D20B561640036019D /* SystemConfiguration.framework */; };
+		95CEE31A20B643D600027565 /* libSVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CEE31920B643D600027565 /* libSVProgressHUD.a */; };
+		95CEE31C20B643EA00027565 /* SVProgressHUD.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CEE31B20B643EA00027565 /* SVProgressHUD.bundle */; };
+		95CEE32020B6463F00027565 /* NSString+HYNTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE31F20B6463F00027565 /* NSString+HYNTES.m */; };
+		95CEE32420B6494100027565 /* HYMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE32320B6494100027565 /* HYMainTabbarController.m */; };
+		95CEE32720B6498800027565 /* HYMegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE32620B6498800027565 /* HYMegViewController.m */; };
+		95CEE32D20B649A000027565 /* HYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE32C20B649A000027565 /* HYMineViewController.m */; };
+		95CEE33620B64F4E00027565 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE33520B64F4E00027565 /* UIColor+Hex.m */; };
+		95CEE33D20B6504800027565 /* HYMainNavigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE33C20B6504800027565 /* HYMainNavigController.m */; };
+		AE64549D7BFDD0C638344545 /* libPods-HYNim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA5829559D863B7311397C4 /* libPods-HYNim.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B6691020B559CF0098C7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B668EF20B559CE0098C7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B668F620B559CE0098C7C8;
+			remoteInfo = HYNim;
+		};
+		95B6691B20B559CF0098C7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B668EF20B559CE0098C7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B668F620B559CE0098C7C8;
+			remoteInfo = HYNim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B25467744DEAD2680D17F6B /* Pods-HYNim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNim.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYNim/Pods-HYNim.release.xcconfig"; sourceTree = "<group>"; };
+		953B388920B55D8700EA7F32 /* HYNim.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNim.pch; sourceTree = "<group>"; };
+		953B388A20B55DD400EA7F32 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		953B388B20B55DD400EA7F32 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		958BE35F20B6582F00E8FE5B /* HYMegListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMegListViewController.h; sourceTree = "<group>"; };
+		958BE36020B6582F00E8FE5B /* HYMegListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMegListViewController.m; sourceTree = "<group>"; };
+		958BE36220B65B2900E8FE5B /* HYSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSessionViewController.h; sourceTree = "<group>"; };
+		958BE36320B65B2900E8FE5B /* HYSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSessionViewController.m; sourceTree = "<group>"; };
+		958BE36620B6615200E8FE5B /* HYCustomNotifiSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCustomNotifiSender.h; sourceTree = "<group>"; };
+		958BE36720B6615200E8FE5B /* HYCustomNotifiSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCustomNotifiSender.m; sourceTree = "<group>"; };
+		958BE36C20B661DC00E8FE5B /* NSDictionary+NimJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NimJson.h"; sourceTree = "<group>"; };
+		958BE36D20B661DC00E8FE5B /* NSDictionary+NimJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NimJson.m"; sourceTree = "<group>"; };
+		95B668F720B559CE0098C7C8 /* HYNim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYNim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B668FA20B559CE0098C7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95B668FB20B559CE0098C7C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95B668FD20B559CE0098C7C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95B668FE20B559CE0098C7C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95B6690320B559CE0098C7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B6690820B559CE0098C7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B6690920B559CE0098C7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95B6690F20B559CF0098C7C8 /* HYNimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYNimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B6691320B559CF0098C7C8 /* HYNimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNimTests.m; sourceTree = "<group>"; };
+		95B6691520B559CF0098C7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B6691A20B559CF0098C7C8 /* HYNimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYNimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B6691E20B559CF0098C7C8 /* HYNimUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNimUITests.m; sourceTree = "<group>"; };
+		95B6692020B559CF0098C7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BF8F5920B561500036019D /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMSDK.framework; path = Pods/NIMSDK_LITE/NIMSDK/NIMSDK.framework; sourceTree = "<group>"; };
+		95BF8F5B20B5615B0036019D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		95BF8F5D20B561640036019D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		95CEE31920B643D600027565 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CEE31B20B643EA00027565 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		95CEE31E20B6463F00027565 /* NSString+HYNTES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HYNTES.h"; sourceTree = "<group>"; };
+		95CEE31F20B6463F00027565 /* NSString+HYNTES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYNTES.m"; sourceTree = "<group>"; };
+		95CEE32220B6494100027565 /* HYMainTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMainTabbarController.h; sourceTree = "<group>"; };
+		95CEE32320B6494100027565 /* HYMainTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMainTabbarController.m; sourceTree = "<group>"; };
+		95CEE32520B6498800027565 /* HYMegViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMegViewController.h; sourceTree = "<group>"; };
+		95CEE32620B6498800027565 /* HYMegViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMegViewController.m; sourceTree = "<group>"; };
+		95CEE32B20B649A000027565 /* HYMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMineViewController.h; sourceTree = "<group>"; };
+		95CEE32C20B649A000027565 /* HYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMineViewController.m; sourceTree = "<group>"; };
+		95CEE33420B64F4E00027565 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		95CEE33520B64F4E00027565 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		95CEE33B20B6504800027565 /* HYMainNavigController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMainNavigController.h; sourceTree = "<group>"; };
+		95CEE33C20B6504800027565 /* HYMainNavigController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMainNavigController.m; sourceTree = "<group>"; };
+		BC2B7BCDE70EB6F6D545E2DE /* Pods-HYNim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYNim/Pods-HYNim.debug.xcconfig"; sourceTree = "<group>"; };
+		EBA5829559D863B7311397C4 /* libPods-HYNim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYNim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B668F420B559CE0098C7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CEE31C20B643EA00027565 /* SVProgressHUD.bundle in Frameworks */,
+				95CEE31A20B643D600027565 /* libSVProgressHUD.a in Frameworks */,
+				95BF8F5E20B561640036019D /* SystemConfiguration.framework in Frameworks */,
+				95BF8F5C20B5615B0036019D /* MobileCoreServices.framework in Frameworks */,
+				95BF8F5A20B561500036019D /* NIMSDK.framework in Frameworks */,
+				AE64549D7BFDD0C638344545 /* libPods-HYNim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B6690C20B559CF0098C7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B6691720B559CF0098C7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B48D4BBBC8242B37DE91167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CEE31B20B643EA00027565 /* SVProgressHUD.bundle */,
+				95CEE31920B643D600027565 /* libSVProgressHUD.a */,
+				95BF8F5D20B561640036019D /* SystemConfiguration.framework */,
+				95BF8F5B20B5615B0036019D /* MobileCoreServices.framework */,
+				95BF8F5920B561500036019D /* NIMSDK.framework */,
+				EBA5829559D863B7311397C4 /* libPods-HYNim.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AF61D6003CA6B22065C9BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B7BCDE70EB6F6D545E2DE /* Pods-HYNim.debug.xcconfig */,
+				7B25467744DEAD2680D17F6B /* Pods-HYNim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		958BE36520B6612700E8FE5B /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				958BE36620B6615200E8FE5B /* HYCustomNotifiSender.h */,
+				958BE36720B6615200E8FE5B /* HYCustomNotifiSender.m */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		95B668EE20B559CE0098C7C8 = {
+			isa = PBXGroup;
+			children = (
+				95B668F920B559CE0098C7C8 /* HYNim */,
+				95B6691220B559CF0098C7C8 /* HYNimTests */,
+				95B6691D20B559CF0098C7C8 /* HYNimUITests */,
+				95B668F820B559CE0098C7C8 /* Products */,
+				8AF61D6003CA6B22065C9BFA /* Pods */,
+				2B48D4BBBC8242B37DE91167 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95B668F820B559CE0098C7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B668F720B559CE0098C7C8 /* HYNim.app */,
+				95B6690F20B559CF0098C7C8 /* HYNimTests.xctest */,
+				95B6691A20B559CF0098C7C8 /* HYNimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B668F920B559CE0098C7C8 /* HYNim */ = {
+			isa = PBXGroup;
+			children = (
+				958BE36520B6612700E8FE5B /* configuration */,
+				95CEE33720B6500800027565 /* navi */,
+				95CEE32120B6491700027565 /* manTab */,
+				95CEE31D20B6462100027565 /* Category */,
+				95B668FA20B559CE0098C7C8 /* AppDelegate.h */,
+				95B668FB20B559CE0098C7C8 /* AppDelegate.m */,
+				95B668FD20B559CE0098C7C8 /* ViewController.h */,
+				95B668FE20B559CE0098C7C8 /* ViewController.m */,
+				953B388A20B55DD400EA7F32 /* MainViewController.h */,
+				953B388B20B55DD400EA7F32 /* MainViewController.m */,
+				95B6690320B559CE0098C7C8 /* Assets.xcassets */,
+				95B6690820B559CE0098C7C8 /* Info.plist */,
+				95B6690920B559CE0098C7C8 /* main.m */,
+				953B388920B55D8700EA7F32 /* HYNim.pch */,
+			);
+			path = HYNim;
+			sourceTree = "<group>";
+		};
+		95B6691220B559CF0098C7C8 /* HYNimTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B6691320B559CF0098C7C8 /* HYNimTests.m */,
+				95B6691520B559CF0098C7C8 /* Info.plist */,
+			);
+			path = HYNimTests;
+			sourceTree = "<group>";
+		};
+		95B6691D20B559CF0098C7C8 /* HYNimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95B6691E20B559CF0098C7C8 /* HYNimUITests.m */,
+				95B6692020B559CF0098C7C8 /* Info.plist */,
+			);
+			path = HYNimUITests;
+			sourceTree = "<group>";
+		};
+		95CEE31D20B6462100027565 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				95CEE31E20B6463F00027565 /* NSString+HYNTES.h */,
+				95CEE31F20B6463F00027565 /* NSString+HYNTES.m */,
+				95CEE33420B64F4E00027565 /* UIColor+Hex.h */,
+				95CEE33520B64F4E00027565 /* UIColor+Hex.m */,
+				958BE36C20B661DC00E8FE5B /* NSDictionary+NimJson.h */,
+				958BE36D20B661DC00E8FE5B /* NSDictionary+NimJson.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		95CEE32120B6491700027565 /* manTab */ = {
+			isa = PBXGroup;
+			children = (
+				95CEE32220B6494100027565 /* HYMainTabbarController.h */,
+				95CEE32320B6494100027565 /* HYMainTabbarController.m */,
+				95CEE32520B6498800027565 /* HYMegViewController.h */,
+				95CEE32620B6498800027565 /* HYMegViewController.m */,
+				95CEE32B20B649A000027565 /* HYMineViewController.h */,
+				95CEE32C20B649A000027565 /* HYMineViewController.m */,
+				958BE35F20B6582F00E8FE5B /* HYMegListViewController.h */,
+				958BE36020B6582F00E8FE5B /* HYMegListViewController.m */,
+				958BE36220B65B2900E8FE5B /* HYSessionViewController.h */,
+				958BE36320B65B2900E8FE5B /* HYSessionViewController.m */,
+			);
+			path = manTab;
+			sourceTree = "<group>";
+		};
+		95CEE33720B6500800027565 /* navi */ = {
+			isa = PBXGroup;
+			children = (
+				95CEE33B20B6504800027565 /* HYMainNavigController.h */,
+				95CEE33C20B6504800027565 /* HYMainNavigController.m */,
+			);
+			path = navi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B668F620B559CE0098C7C8 /* HYNim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B6692320B559CF0098C7C8 /* Build configuration list for PBXNativeTarget "HYNim" */;
+			buildPhases = (
+				C4816CD23B1C88C5C85D6E6B /* [CP] Check Pods Manifest.lock */,
+				95B668F320B559CE0098C7C8 /* Sources */,
+				95B668F420B559CE0098C7C8 /* Frameworks */,
+				95B668F520B559CE0098C7C8 /* Resources */,
+				F934B4E11A6C8BE3A8EFABF1 /* [CP] Embed Pods Frameworks */,
+				12EE2A76D5B6BCC54A4BDE1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYNim;
+			productName = HYNim;
+			productReference = 95B668F720B559CE0098C7C8 /* HYNim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B6690E20B559CF0098C7C8 /* HYNimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B6692620B559CF0098C7C8 /* Build configuration list for PBXNativeTarget "HYNimTests" */;
+			buildPhases = (
+				95B6690B20B559CF0098C7C8 /* Sources */,
+				95B6690C20B559CF0098C7C8 /* Frameworks */,
+				95B6690D20B559CF0098C7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B6691120B559CF0098C7C8 /* PBXTargetDependency */,
+			);
+			name = HYNimTests;
+			productName = HYNimTests;
+			productReference = 95B6690F20B559CF0098C7C8 /* HYNimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95B6691920B559CF0098C7C8 /* HYNimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B6692920B559CF0098C7C8 /* Build configuration list for PBXNativeTarget "HYNimUITests" */;
+			buildPhases = (
+				95B6691620B559CF0098C7C8 /* Sources */,
+				95B6691720B559CF0098C7C8 /* Frameworks */,
+				95B6691820B559CF0098C7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B6691C20B559CF0098C7C8 /* PBXTargetDependency */,
+			);
+			name = HYNimUITests;
+			productName = HYNimUITests;
+			productReference = 95B6691A20B559CF0098C7C8 /* HYNimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B668EF20B559CE0098C7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SXHY;
+				TargetAttributes = {
+					95B668F620B559CE0098C7C8 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					95B6690E20B559CF0098C7C8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 95B668F620B559CE0098C7C8;
+					};
+					95B6691920B559CF0098C7C8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 95B668F620B559CE0098C7C8;
+					};
+				};
+			};
+			buildConfigurationList = 95B668F220B559CE0098C7C8 /* Build configuration list for PBXProject "HYNim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B668EE20B559CE0098C7C8;
+			productRefGroup = 95B668F820B559CE0098C7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B668F620B559CE0098C7C8 /* HYNim */,
+				95B6690E20B559CF0098C7C8 /* HYNimTests */,
+				95B6691920B559CF0098C7C8 /* HYNimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B668F520B559CE0098C7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B6690420B559CE0098C7C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B6690D20B559CF0098C7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B6691820B559CF0098C7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EE2A76D5B6BCC54A4BDE1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HYNim/Pods-HYNim-resources.sh",
+				"${PODS_ROOT}/NIMKit/NIMKit/Resources/NIMKitEmoticon.bundle",
+				"${PODS_ROOT}/NIMKit/NIMKit/Resources/NIMKitResource.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NIMKitEmoticon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NIMKitResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYNim/Pods-HYNim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4816CD23B1C88C5C85D6E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYNim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F934B4E11A6C8BE3A8EFABF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HYNim/Pods-HYNim-frameworks.sh",
+				"${PODS_ROOT}/NIMSDK_LITE/NIMSDK/NIMSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYNim/Pods-HYNim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B668F320B559CE0098C7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958BE36820B6615200E8FE5B /* HYCustomNotifiSender.m in Sources */,
+				95B668FF20B559CE0098C7C8 /* ViewController.m in Sources */,
+				95B6690A20B559CE0098C7C8 /* main.m in Sources */,
+				95CEE32D20B649A000027565 /* HYMineViewController.m in Sources */,
+				95CEE32020B6463F00027565 /* NSString+HYNTES.m in Sources */,
+				95CEE33620B64F4E00027565 /* UIColor+Hex.m in Sources */,
+				95CEE33D20B6504800027565 /* HYMainNavigController.m in Sources */,
+				95B668FC20B559CE0098C7C8 /* AppDelegate.m in Sources */,
+				958BE36120B6582F00E8FE5B /* HYMegListViewController.m in Sources */,
+				958BE36420B65B2900E8FE5B /* HYSessionViewController.m in Sources */,
+				953B388C20B55DD400EA7F32 /* MainViewController.m in Sources */,
+				95CEE32420B6494100027565 /* HYMainTabbarController.m in Sources */,
+				958BE36E20B661DC00E8FE5B /* NSDictionary+NimJson.m in Sources */,
+				95CEE32720B6498800027565 /* HYMegViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B6690B20B559CF0098C7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B6691420B559CF0098C7C8 /* HYNimTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B6691620B559CF0098C7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B6691F20B559CF0098C7C8 /* HYNimUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95B6691120B559CF0098C7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B668F620B559CE0098C7C8 /* HYNim */;
+			targetProxy = 95B6691020B559CF0098C7C8 /* PBXContainerItemProxy */;
+		};
+		95B6691C20B559CF0098C7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B668F620B559CE0098C7C8 /* HYNim */;
+			targetProxy = 95B6691B20B559CF0098C7C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95B6692120B559CF0098C7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95B6692220B559CF0098C7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B6692420B559CF0098C7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2B7BCDE70EB6F6D545E2DE /* Pods-HYNim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/NIMSDK_LITE/NIMSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYNim/HYNim.pch";
+				INFOPLIST_FILE = HYNim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SXHY.HYNim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95B6692520B559CF0098C7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B25467744DEAD2680D17F6B /* Pods-HYNim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/NIMSDK_LITE/NIMSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYNim/HYNim.pch";
+				INFOPLIST_FILE = HYNim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SXHY.HYNim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95B6692720B559CF0098C7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				INFOPLIST_FILE = HYNimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SXHY.HYNimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYNim.app/HYNim";
+			};
+			name = Debug;
+		};
+		95B6692820B559CF0098C7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				INFOPLIST_FILE = HYNimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SXHY.HYNimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYNim.app/HYNim";
+			};
+			name = Release;
+		};
+		95B6692A20B559CF0098C7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				INFOPLIST_FILE = HYNimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SXHY.HYNimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYNim;
+			};
+			name = Debug;
+		};
+		95B6692B20B559CF0098C7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				INFOPLIST_FILE = HYNimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SXHY.HYNimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYNim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B668F220B559CE0098C7C8 /* Build configuration list for PBXProject "HYNim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B6692120B559CF0098C7C8 /* Debug */,
+				95B6692220B559CF0098C7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B6692320B559CF0098C7C8 /* Build configuration list for PBXNativeTarget "HYNim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B6692420B559CF0098C7C8 /* Debug */,
+				95B6692520B559CF0098C7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B6692620B559CF0098C7C8 /* Build configuration list for PBXNativeTarget "HYNimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B6692720B559CF0098C7C8 /* Debug */,
+				95B6692820B559CF0098C7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B6692920B559CF0098C7C8 /* Build configuration list for PBXNativeTarget "HYNimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B6692A20B559CF0098C7C8 /* Debug */,
+				95B6692B20B559CF0098C7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B668EF20B559CE0098C7C8 /* Project object */;
+}
