@@ -108,9 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BF8F5E20B561640036019D /* SystemConfiguration.framework in Frameworks */,
 				95CEE31C20B643EA00027565 /* SVProgressHUD.bundle in Frameworks */,
 				95CEE31A20B643D600027565 /* libSVProgressHUD.a in Frameworks */,
-				95BF8F5E20B561640036019D /* SystemConfiguration.framework in Frameworks */,
 				95BF8F5C20B5615B0036019D /* MobileCoreServices.framework in Frameworks */,
 				95BF8F5A20B561500036019D /* NIMSDK.framework in Frameworks */,
 				AE64549D7BFDD0C638344545 /* libPods-HYNim.a in Frameworks */,

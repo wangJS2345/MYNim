@@ -41,7 +41,6 @@
 //消息列表页
 #import "HYMegListViewController.h"
 //会话对话页
-#import "HYSessionViewController.h"
 
 #import "HYMainNavigController.h"
 #import "HYCustomNotifiSender.h"

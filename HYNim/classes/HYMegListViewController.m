@@ -7,6 +7,7 @@
 //
 
 #import "HYMegListViewController.h"
+#import "HYSessionViewController.h"
 
 @interface HYMegListViewController ()
 
