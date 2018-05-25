@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ContactDataMember;
 @interface HYMineViewController : UIViewController
 
 - (instancetype)initWithUserId:(NSString *)userId;

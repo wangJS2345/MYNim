@@ -10,8 +10,12 @@
 #import "NIMCommonTableDelegate.h"
 #import "NIMCommonTableData.h"
 #import "HYMineTableViewCell.h"
+#import "UIView+Toast.h"
+#import "UIView+NTES.h"
+
 
 @interface HYMineViewController ()<NIMUserManagerDelegate>
+    
 @property (nonatomic,strong) NIMCommonTableDelegate *delegator;
 
 @property (nonatomic,copy  ) NSArray                 *data;
@@ -207,7 +211,7 @@
                           RowContent :@[
                                   @{
                                       Title        : @"聊天",
-                                      CellClass    : @"NTESColorButtonCell",
+                                      CellClass    : @"HYMineTableViewCell",
                                       CellAction   : @"chat",
                                       ExtraInfo    : @(ColorButtonCellStyleBlue),
                                       Disable      : @(isMe),
@@ -217,7 +221,7 @@
                                       },
                                   @{
                                       Title        : @"删除好友",
-                                      CellClass    : @"NTESColorButtonCell",
+                                      CellClass    : @"HYMineTableViewCell",
                                       CellAction   : @"deleteFriend",
                                       ExtraInfo    : @(ColorButtonCellStyleRed),
                                       Disable      : @(!isMyFriend || isMe),
@@ -227,7 +231,7 @@
                                       },
                                   @{
                                       Title        : @"添加好友",
-                                      CellClass    : @"NTESColorButtonCell",
+                                      CellClass    : @"HYMineTableViewCell",
                                       CellAction   : @"addFriend",
                                       ExtraInfo    : @(ColorButtonCellStyleBlue),
                                       Disable      : @(isMyFriend  || isMe),

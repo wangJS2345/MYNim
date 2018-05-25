@@ -8,6 +8,7 @@
 
 #import "HYMineTableViewCell.h"
 #import "NIMCommonTableData.h"
+#import "UIView+NTES.h"
 
 
 @interface HYMineTableViewCell()

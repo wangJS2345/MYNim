@@ -94,6 +94,7 @@
     }
 }
 - (BOOL)onTapAvatar:(NIMMessage *)message {
+    /*
     NSString *userId = [self messageSendSource:message];
     UIViewController *vc = nil;
     if ([[NIMSDK sharedSDK].robotManager isValidRobot:userId])
@@ -110,6 +111,7 @@
     //push后不显示tabbar
     [vc setHidesBottomBarWhenPushed:YES];
     [self.navigationController pushViewController:vc animated:YES];
+    */
     return YES;
 }
 - (NSString *)messageSendSource:(NIMMessage *)message

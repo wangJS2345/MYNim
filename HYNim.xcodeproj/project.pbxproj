@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9510E14C20B7A36C00261C8C /* HYMegListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510E14A20B7A36C00261C8C /* HYMegListViewController.m */; };
+		9510E14D20B7A36C00261C8C /* HYSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510E14B20B7A36C00261C8C /* HYSessionViewController.m */; };
 		953B388C20B55DD400EA7F32 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953B388B20B55DD400EA7F32 /* MainViewController.m */; };
-		958BE36120B6582F00E8FE5B /* HYMegListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36020B6582F00E8FE5B /* HYMegListViewController.m */; };
-		958BE36420B65B2900E8FE5B /* HYSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36320B65B2900E8FE5B /* HYSessionViewController.m */; };
 		958BE36820B6615200E8FE5B /* HYCustomNotifiSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36720B6615200E8FE5B /* HYCustomNotifiSender.m */; };
 		958BE36E20B661DC00E8FE5B /* NSDictionary+NimJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 958BE36D20B661DC00E8FE5B /* NSDictionary+NimJson.m */; };
 		9597EABF20B6B52B0074EAE2 /* UIView+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 9597EABD20B6B52B0074EAE2 /* UIView+NTES.m */; };
@@ -53,13 +53,13 @@
 
 /* Begin PBXFileReference section */
 		7B25467744DEAD2680D17F6B /* Pods-HYNim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNim.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYNim/Pods-HYNim.release.xcconfig"; sourceTree = "<group>"; };
+		9510E14820B7A36C00261C8C /* HYMegListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMegListViewController.h; sourceTree = "<group>"; };
+		9510E14920B7A36C00261C8C /* HYSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSessionViewController.h; sourceTree = "<group>"; };
+		9510E14A20B7A36C00261C8C /* HYMegListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMegListViewController.m; sourceTree = "<group>"; };
+		9510E14B20B7A36C00261C8C /* HYSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSessionViewController.m; sourceTree = "<group>"; };
 		953B388920B55D8700EA7F32 /* HYNim.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNim.pch; sourceTree = "<group>"; };
 		953B388A20B55DD400EA7F32 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		953B388B20B55DD400EA7F32 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		958BE35F20B6582F00E8FE5B /* HYMegListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMegListViewController.h; sourceTree = "<group>"; };
-		958BE36020B6582F00E8FE5B /* HYMegListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMegListViewController.m; sourceTree = "<group>"; };
-		958BE36220B65B2900E8FE5B /* HYSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSessionViewController.h; sourceTree = "<group>"; };
-		958BE36320B65B2900E8FE5B /* HYSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSessionViewController.m; sourceTree = "<group>"; };
 		958BE36620B6615200E8FE5B /* HYCustomNotifiSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCustomNotifiSender.h; sourceTree = "<group>"; };
 		958BE36720B6615200E8FE5B /* HYCustomNotifiSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCustomNotifiSender.m; sourceTree = "<group>"; };
 		958BE36C20B661DC00E8FE5B /* NSDictionary+NimJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NimJson.h"; sourceTree = "<group>"; };
@@ -156,6 +156,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9510E14720B7A36C00261C8C /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9510E14820B7A36C00261C8C /* HYMegListViewController.h */,
+				9510E14A20B7A36C00261C8C /* HYMegListViewController.m */,
+				9510E14920B7A36C00261C8C /* HYSessionViewController.h */,
+				9510E14B20B7A36C00261C8C /* HYSessionViewController.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
 		958BE36520B6612700E8FE5B /* configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +208,7 @@
 		95B668F920B559CE0098C7C8 /* HYNim */ = {
 			isa = PBXGroup;
 			children = (
+				9510E14720B7A36C00261C8C /* classes */,
 				9597EAB520B6B4D50074EAE2 /* fromNIM */,
 				958BE36520B6612700E8FE5B /* configuration */,
 				95CEE33720B6500800027565 /* navi */,
@@ -260,10 +272,6 @@
 				95CEE32C20B649A000027565 /* HYMineViewController.m */,
 				9597EAC320B6B8F70074EAE2 /* HYMineTableViewCell.h */,
 				9597EAC420B6B8F70074EAE2 /* HYMineTableViewCell.m */,
-				958BE35F20B6582F00E8FE5B /* HYMegListViewController.h */,
-				958BE36020B6582F00E8FE5B /* HYMegListViewController.m */,
-				958BE36220B65B2900E8FE5B /* HYSessionViewController.h */,
-				958BE36320B65B2900E8FE5B /* HYSessionViewController.m */,
 			);
 			path = manTab;
 			sourceTree = "<group>";
@@ -473,14 +481,14 @@
 			files = (
 				958BE36820B6615200E8FE5B /* HYCustomNotifiSender.m in Sources */,
 				95B668FF20B559CE0098C7C8 /* ViewController.m in Sources */,
+				9510E14C20B7A36C00261C8C /* HYMegListViewController.m in Sources */,
 				95B6690A20B559CE0098C7C8 /* main.m in Sources */,
 				95CEE32D20B649A000027565 /* HYMineViewController.m in Sources */,
 				95CEE32020B6463F00027565 /* NSString+HYNTES.m in Sources */,
 				95CEE33620B64F4E00027565 /* UIColor+Hex.m in Sources */,
 				95CEE33D20B6504800027565 /* HYMainNavigController.m in Sources */,
+				9510E14D20B7A36C00261C8C /* HYSessionViewController.m in Sources */,
 				95B668FC20B559CE0098C7C8 /* AppDelegate.m in Sources */,
-				958BE36120B6582F00E8FE5B /* HYMegListViewController.m in Sources */,
-				958BE36420B65B2900E8FE5B /* HYSessionViewController.m in Sources */,
 				953B388C20B55DD400EA7F32 /* MainViewController.m in Sources */,
 				95CEE32420B6494100027565 /* HYMainTabbarController.m in Sources */,
 				958BE36E20B661DC00E8FE5B /* NSDictionary+NimJson.m in Sources */,
