@@ -30,6 +30,9 @@
 //    return;
     NSLog(@"消息：%@",recent.session);
     HYSessionViewController *vc = [[HYSessionViewController alloc] initWithSession:recent.session];
+    //push后不显示tabbar
+    [vc setHidesBottomBarWhenPushed:YES];
+
     [self.navigationController pushViewController:vc animated:YES];
 }
 

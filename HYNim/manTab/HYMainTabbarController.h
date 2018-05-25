@@ -10,4 +10,6 @@
 
 @interface HYMainTabbarController : UITabBarController
 
++ (instancetype)instance;
+
 @end

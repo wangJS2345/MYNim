@@ -10,4 +10,5 @@
 
 @interface HYMineViewController : UIViewController
 
+- (instancetype)initWithUserId:(NSString *)userId;
 @end

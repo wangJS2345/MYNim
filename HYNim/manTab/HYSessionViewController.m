@@ -40,8 +40,7 @@
 //    self.displayUserNameInCell = NO;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     [[NIMSDK sharedSDK].systemNotificationManager removeDelegate:self];
 }
 - (void)didReceiveMemoryWarning {
@@ -68,8 +67,7 @@
     self.navigationItem.rightBarButtonItem = chatObjectItem;
 
 }
-- (void)goBack
-{
+- (void)goBack {
     [self.navigationController popViewControllerAnimated:YES];
 }
 #pragma mark - UI操作
@@ -94,6 +92,42 @@
 //                            repeats:NO];
         }
     }
+}
+- (BOOL)onTapAvatar:(NIMMessage *)message {
+    NSString *userId = [self messageSendSource:message];
+    UIViewController *vc = nil;
+    if ([[NIMSDK sharedSDK].robotManager isValidRobot:userId])
+    {
+        //点击自己头像
+//        vc = [[NTESRobotCardViewController alloc] initWithUserId:userId];
+    }
+    else
+    {
+        //点击对方头像
+        vc = [[HYMineViewController alloc] initWithUserId:userId];
+    }
+    
+    //push后不显示tabbar
+    [vc setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:vc animated:YES];
+    return YES;
+}
+- (NSString *)messageSendSource:(NIMMessage *)message
+{
+    NSString *from = nil;
+    if (message.messageType == NIMMessageTypeRobot)
+    {
+        NIMRobotObject *object = (NIMRobotObject *)message.messageObject;
+        if (object.isFromRobot)
+        {
+            from = object.robotId;
+        }
+    }
+    if (!from)
+    {
+        from = message.from;
+    }
+    return from;
 }
 
 @end
